@@ -1,0 +1,20 @@
+.profile {
+    border: solid #888888 1px;
+    border-radius: 4px;
+}
+
+.name {
+    font-size: 24px;
+    text-align: left;
+    border: solid #888888 1px;
+
+
+    padding-left: 10px;
+}
+
+.item {
+    border: solid #888888 1px;
+    height: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
