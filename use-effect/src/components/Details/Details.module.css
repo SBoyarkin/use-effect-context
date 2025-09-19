@@ -1,20 +1,30 @@
 .profile {
     border: solid #888888 1px;
     border-radius: 4px;
+    height: 50%;
 }
 
 .name {
     font-size: 24px;
     text-align: left;
-    border: solid #888888 1px;
-
-
+    user-select: none;
     padding-left: 10px;
 }
+.ditails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
+}
 .item {
-    border: solid #888888 1px;
+
+    user-select: none;
+    border-top: solid  #888888 1px;
     height: 30px;
     text-align: left;
     padding-left: 10px;
+}
+
+.avatar {
+    min-height: 200px;
 }

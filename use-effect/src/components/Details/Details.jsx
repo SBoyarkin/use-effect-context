@@ -8,10 +8,13 @@ export const Details = ({props}) => {
             <>
                 <div className={S.profile}  key={id}>
                     <img className={S.avatar} src={avatar}></img>
-                    <div className={S.name}>{name}</div>
-                    <div className={S.item}> City: {details.city}</div>
-                    <div className={S.item}>Company: {details.company}</div>
-                    <div className={S.item}>Position: {details.company}</div>
+                    <div className={S.ditails}>
+                        <div className={S.name}>{name}</div>
+                        <div className={S.item}> City: {details.city}</div>
+                        <div className={S.item}>Company: {details.company}</div>
+                        <div className={S.item}>Position: {details.company}</div>
+                    </div>
+
                 </div>
             </>
         )}
