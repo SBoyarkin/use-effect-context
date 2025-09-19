@@ -16,7 +16,6 @@ function App() {
             .then((data) => {
                 updateUser(data)
             });
-
     }, [])
 
     useEffect(() => {
@@ -25,7 +24,6 @@ function App() {
             .then(response => response.json())
             .then((data) => {
                 updateHandlerProfile(data)
-
             });
     }},[userId]);
 
@@ -33,13 +31,12 @@ function App() {
         const id = e.currentTarget.id
         console.log(e.currentTarget.id)
         updateHandlerUserId(id)
-
     }
 
   return (
     <>
         <div className='flex'>
-        <List props={user} handler={selectUser}/>
+        <List props={user} handler={selectUser} userId={userId}/>
         <Details props={profile}/>
         </div>
     </>
