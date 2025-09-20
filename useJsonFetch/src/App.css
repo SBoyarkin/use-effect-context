@@ -4,3 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+
+.component {
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  padding: 20px
+}
+
